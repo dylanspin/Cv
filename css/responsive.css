@@ -1,0 +1,242 @@
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* body {background: green;} */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* body {background: red;} */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* body {background: blue;} */
+  .spacer{
+    display: none;
+  }
+  .contactvak{
+    height: 300px;
+    width: 90vw;
+    left: 5%;
+    border-radius: 1vw;
+  }
+  .contact{
+    width: 100%;
+    font-size: 60px;
+  }
+  .project{
+    width: 40%;
+    height: 40vh;
+    margin-bottom: 45vh;
+  }
+  .projectText{
+    font-size: 40px;
+  }
+  .projectKop{
+    font-size: 55px;
+  }
+  .experience{
+    width: 40vw;
+    height: 40vw;
+  }
+  .experienceKop{
+    font-size: 40px;
+  }
+  .experienceText{
+    font-size: 25px;
+  }
+  .skills{
+    height: 30vh;
+  }
+  .skillKop{
+    font-size: 42px;
+    margin-bottom: 2vh;
+  }
+  .skill{
+    position: relative;
+    margin-top: 1%;
+    left: 2%;
+    font-size: 45px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* body {background: orange;} */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* body {background: yellow;} */
+  .spacer{
+    width: 170px;
+  }
+  /*header*/
+  .header{
+    width: 100%;
+    top: 0;
+    height: 50px;
+  }
+  .headerInner{
+    margin-right: 10%;
+  }
+  .headerButton{
+    left: 0;
+    top: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 180%;
+    margin-left: 2vw;
+  }
+  .underline{
+    bottom: -31px;
+    left: 15%;
+    width: 100%;
+    height: 3px;
+  }
+  .headerNaam{
+    left: 5%;
+    top: -50%;
+    font-size: 30px;
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    z-index: 10;
+  }
+  .headerLine{
+    bottom: -35%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+  }
+  .main{
+    top: 7vh;
+    width: 100%;
+    min-height: 80vh;
+  }
+  /*Vak main*/
+  .vakWie{
+    border-radius: 0.5vw;
+    left: 10%;
+    top: 15vh;
+    width: 60vw;
+    height: 50vh;
+  }
+  .vakImg{
+    width: 32%;
+    height: 120%;
+    top: -10%;
+    left: 5%;
+    z-index: 2;
+  }
+  .socialmedia{
+    left: 0;
+    top: 1%;
+  }
+  .social{
+    margin-top: 10px;
+    left: 40%;
+    color: white;
+    font-size: 30px;
+  }
+  .vakText{
+    right: 0;
+    width: 65%;
+    height: 100%;
+    z-index: 1;
+    color: white;
+  }
+  .kop{
+    top: 5%;
+    padding-left: 5%;
+    width: 95%;
+    height: 20%;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .Leeftijd{
+    font-size: 20px;
+    padding-left: 5%;
+    width: 95%;
+  }
+  .vakInfo{
+    margin-top: 5%;
+  }
+  /*Projcects*/
+  .project{
+    left: 8%;
+    top: 5vh;
+    margin-right: 1vw;
+    width: 20%;
+    height: 40vh;
+  }
+  .projectText{
+    padding: 5%;
+    width: 89%;
+    height: 80%;
+  }
+  .projectKop{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 5%;
+  }
+  /*Skills*/
+  .skills{
+    top: 10%;
+    color: white;
+    padding: 2%;
+    width: 40%;
+    height: 40vh;
+  }
+  .skillKop{
+    font-size: 40px;
+  }
+  .skill{
+    margin-top: 1%;
+    left: 2%;
+    font-size: 25px;
+  }
+  .left{
+    left: 5%;
+  }
+  .right{
+    right: 5%;
+  }
+  /*contact*/
+  .contact{
+    color: white;
+    margin-top: 5px;
+    left: 20px;
+    top: 20px;
+    font-size: 30px;
+  }
+  .contactvak{
+    height: 200px;
+    border-radius: 1vw;
+  }
+  /*experience*/
+  .experience{
+    top: 5vh;
+    left: 5vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 0.25vw;
+    color: white;
+    margin: 1vw;
+  }
+  .experienceKop{
+    font-size: 30px;
+    top: 5%;
+  }
+  .experienceText{
+    top: 25%;
+    width: 90%;
+    padding-left: 5%;
+    font-size: 20px;
+  }
+
+}

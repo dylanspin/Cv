@@ -17,7 +17,7 @@ a:hover{
   text-decoration: none;
 }
 .hover{
-  transition:
+  transition:0.3s;
 }
 .hover:hover{
   transform: scale(1.15,1.15);
@@ -111,11 +111,10 @@ li:hover .underline{
 }
 .vakImg{
   position: absolute;
-  width: 30%;
+  width: 32%;
   height: 120%;
   top: -10%;
   left: 5%;
-  background: red;
   z-index: 2;
 }
 .socialmedia{
@@ -211,7 +210,6 @@ li:hover .underline{
 .right{
   right: 5%;
 }
-
 /*contact*/
 .contact{
   position: relative;
@@ -225,4 +223,30 @@ li:hover .underline{
 .contactvak{
   height: 200px;
   border-radius: 1vw;
+}
+/*experience*/
+.experience{
+  position: relative;
+  top: 5vh;
+  left: 5vw;
+  width: 20vw;
+  height: 20vw;
+  background-color: #171717;
+  border-radius: 0.25vw;
+  color: white;
+  display: inline-block;
+  margin: 1vw;
+}
+.experienceKop{
+  position: relative;
+  font-size: 30px;
+  top: 5%;
+  text-align: center;
+}
+.experienceText{
+  position: absolute;
+  top: 25%;
+  width: 90%;
+  padding-left: 5%;
+  font-size: 20px;
 }
