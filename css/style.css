@@ -1,0 +1,228 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  font-family: 'Ubuntu', sans-serif;
+}
+ul{
+  list-style: none;
+  position: absolute;
+}
+a{
+  display: flex;
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.hover{
+  transition:
+}
+.hover:hover{
+  transform: scale(1.15,1.15);
+}
+.img{
+  height: 100%;
+  width: 100%;
+}
+.spacer{
+  display: inline-block;
+  width: 170px;
+}
+/*header*/
+.header{
+  position: relative;
+  width: 100%;
+  top: 0;
+  height: 50px;
+}
+.headerInner{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+.headerButton{
+  position: relative;
+  left: 0;
+  top: 25%;
+  z-index: 100;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: 600;
+  font-size: 180%;
+  cursor: default;
+  margin-left: 2vw;
+}
+li:hover .underline{
+  display: flex;
+}
+.underline{
+  display: none;
+  position: relative;
+  bottom: -31px;
+  left: 15%;
+  z-index: 2;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+.displayBlock{
+  display: block;
+}
+.headerNaam{
+  position: absolute;
+  left: 5%;
+  top: -50%;
+  font-size: 30px;
+  color: white;
+  width: 180px;
+  height: 60px;
+  padding-top: 30px;
+  padding-left: 20px;
+  z-index: 10;
+  background-color: #171717;
+}
+.headerLine{
+  position: absolute;
+  bottom: -35%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #BDBDBD;
+}
+.main{
+  position: relative;
+  top: 7vh;
+  width: 100%;
+  min-height: 80vh;
+  height: auto;
+}
+/*Vak main*/
+.vakWie{
+  position: relative;
+  border-radius: 0.5vw;
+  left: 10%;
+  top: 15vh;
+  width: 60vw;
+  height: 50vh;
+  background-color: #171717;
+}
+.vakImg{
+  position: absolute;
+  width: 30%;
+  height: 120%;
+  top: -10%;
+  left: 5%;
+  background: red;
+  z-index: 2;
+}
+.socialmedia{
+  position: absolute;
+  left: 0;
+  top: 1%;
+}
+.social{
+  position: relative;
+  margin-top: 10px;
+  left: 40%;
+  color: white;
+  font-size: 30px;
+  display: block;
+}
+.vakText{
+  position: absolute;
+  right: 0;
+  width: 65%;
+  height: 100%;
+  z-index: 1;
+  color: white;
+}
+.kop{
+  position: relative;
+  top: 5%;
+  padding-left: 5%;
+  width: 95%;
+  height: 20%;
+  font-size: 45px;
+  font-weight: 600;
+}
+.Leeftijd{
+  font-size: 20px;
+  padding-left: 5%;
+  width: 95%;
+}
+.vakInfo{
+  position: relative;
+  margin-top: 5%;
+}
+/*Projcects*/
+.project{
+  position: relative;
+  left: 8%;
+  top: 5vh;
+  margin-right: 1vw;
+  width: 20%;
+  height: 40vh;
+  background-color: #17171717;
+  display: inline-block;
+}
+.projectText{
+  position: absolute;
+  padding: 5%;
+  width: 89%;
+  height: 80%;
+  border:2px solid #171717;
+}
+.projectKop{
+  position: relative;
+  width: 100%;
+  font-size: 40px;
+  height: auto;
+  text-align: center;
+  color: #171717;
+  margin-bottom: 5%;
+}
+/*Skills*/
+.skills{
+  position: absolute;
+  border-radius: 0.5vw;
+  top: 10%;
+  background:#171717;
+  color: white;
+  display: inline-block;
+  padding: 2%;
+  width: 40%;
+  height: 40vh;
+}
+.skillKop{
+  font-size: 40px;
+}
+.skill{
+  position: relative;
+  margin-top: 1%;
+  left: 2%;
+  font-size: 25px;
+}
+.left{
+  left: 5%;
+}
+.right{
+  right: 5%;
+}
+
+/*contact*/
+.contact{
+  position: relative;
+  display: block;
+  color: white;
+  margin-top: 5px;
+  left: 20px;
+  top: 20px;
+  font-size: 30px;
+}
+.contactvak{
+  height: 200px;
+  border-radius: 1vw;
+}
