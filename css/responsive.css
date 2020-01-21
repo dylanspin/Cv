@@ -167,23 +167,7 @@
     margin-top: 5%;
   }
   /*Projcects*/
-  .project{
-    left: 8%;
-    top: 5vh;
-    margin-right: 1vw;
-    width: 20%;
-    height: 40vh;
-  }
-  .projectText{
-    padding: 5%;
-    width: 89%;
-    height: 80%;
-  }
-  .projectKop{
-    width: 100%;
-    font-size: 40px;
-    margin-bottom: 5%;
-  }
+  
   /*Skills*/
   .skills{
     top: 10%;
